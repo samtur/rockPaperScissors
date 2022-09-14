@@ -8,18 +8,22 @@ body {
     align-items: center;
     justify-content: center;
     height: 75vh;
+    background-color: #fffffe;
+    font-family: 'Pacifico', cursive;
 }
 
 .bodyContainer {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: #078080 0px 5px 15px;
     padding: 20px;
     width: 500px;
     border-radius: 1.25%;
+    background-color:#f8f5f2;
 }
 
 h1 {
     margin-bottom: 50px;
     text-align: center;
+    color:#232323;
 }
 
 img {
@@ -27,12 +31,20 @@ img {
     width: 100px;
 }
 .gametext {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-align: center;
+    color: #222525;
+}
+
+.playagain {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #222525;
 }
 .buttonContainer {
     display: flex;
     justify-content: center;
+    pointer-events: auto;
 }
 
 .buttonContainer div {
@@ -41,7 +53,7 @@ img {
 
 .buttonContainer div :hover{
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0 0.5em 0.5em -0.4em;
+    box-shadow: #078080 0 0.5em 0.5em -0.4em;
     transform: translateY(-0.25em);
     border-radius: 50%;
 }
@@ -58,6 +70,21 @@ img {
     flex-direction: column;
     align-items: center;
     width: 25vh;
+    color: #222525;
+}
+
+button {
+    font-family: 'Pacifico', cursive;
+    border-radius: 5px;
+    padding: 2.5px 12px;
+    background-color: #078080;
+    color: #232323;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: #078080 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
 }
 
 
