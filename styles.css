@@ -15,7 +15,8 @@ body {
 .bodyContainer {
     box-shadow: #078080 0px 5px 15px;
     padding: 20px;
-    width: 500px;
+    height: auto;
+    width: 725px;
     border-radius: 1.25%;
     background-color:#f8f5f2;
 }
@@ -24,6 +25,7 @@ h1 {
     margin-bottom: 50px;
     text-align: center;
     color:#232323;
+    font-size: 55px;
 }
 
 img {
@@ -34,12 +36,14 @@ img {
     margin-bottom: 10px;
     text-align: center;
     color: #222525;
+    font-size: 22px;
 }
 
 .playagain {
     text-align: center;
     margin-bottom: 25px;
     color: #222525;
+    font-size: 22px;
 }
 .buttonContainer {
     display: flex;
@@ -62,7 +66,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .scoreContainer div {
@@ -71,14 +75,17 @@ img {
     align-items: center;
     width: 25vh;
     color: #222525;
+    font-size: 30px;
 }
 
 button {
     font-family: 'Pacifico', cursive;
     border-radius: 5px;
-    padding: 2.5px 12px;
+    padding: 2px 15px;
     background-color: #078080;
     color: #232323;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 button:hover {
